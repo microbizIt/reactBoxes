@@ -1,0 +1,30 @@
+.mb-4{
+  margin-bottom: 1rem;
+}
+.box{
+  padding: 2rem;
+  border: 1px solid #cecece;
+  width: 10%;
+}
+.box:hover{
+  background-color: white;
+  filter: brightness(85%);
+  cursor: pointer;
+}
+.box.red{
+  background-color: red;
+}
+.box.green{
+  background-color: green;
+}
+.box.blue{
+  background-color: blue;
+}
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+}
+.stat{
+  text-transform: capitalize;
+}
+  
